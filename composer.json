@@ -32,5 +32,8 @@
       "url": "https://pear.php.net"
     }
   ],
-  "bin": ["generator/bin/propel-gen", "generator/bin/propel-gen.bat"]
+  "bin": ["generator/bin/propel-gen", "generator/bin/propel-gen.bat"],
+  "scripts": {
+    "test": "TZ=Europe/Berlin phpunit"
+  }
 }
